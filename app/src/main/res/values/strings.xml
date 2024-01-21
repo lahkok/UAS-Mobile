@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UAS-Mobile</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="sign_up">Doesnt have an account? Sign up now</string>
+    <string name="register">Sign up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

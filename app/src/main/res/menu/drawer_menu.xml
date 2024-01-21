@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_theme"
+            android:title="Theme">
+            <menu>
+                <item
+                    android:id="@+id/nav_light_theme"
+                    android:title="Light" />
+                <item
+                    android:id="@+id/nav_dark_theme"
+                    android:title="Dark" />
+            </menu>
+        </item>
+    </group>
+</menu>

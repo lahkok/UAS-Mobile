@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/workout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Workout Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/workout_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Workout Duration (minutes)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/workout_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add notes"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No date selected" />
+
+    <Button
+        android:id="@+id/add_workout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Workout"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
